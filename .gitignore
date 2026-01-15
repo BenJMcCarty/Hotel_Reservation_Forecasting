@@ -130,7 +130,10 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
+# uv
+.uv/
+uv.lock
+.python-versionenv/
 venv/
 ENV/
 env.bak/
